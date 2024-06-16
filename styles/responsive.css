@@ -1,0 +1,340 @@
+@media screen and (max-width: 600px) {
+  .container {
+    width: 88%;
+    margin: 0 auto;
+  }
+
+  .heading-text {
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .description {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 14px;
+  }
+
+  .section-heading {
+    margin: 30px auto;
+    max-width: 400px;
+    width: 90%;
+  }
+
+  /* Navbar */
+
+  .nav-bar .nav-items {
+    display: none;
+  }
+
+  .nav-bar .menu-icon {
+    display: inline-block;
+  }
+
+  .nav-bar .logo h2 {
+    font-size: 20px;
+  }
+
+  .nav-bar .logo img {
+    width: 30px;
+  }
+
+  .nav-bar .menu-icon {
+    font-size: 20px;
+  }
+
+  /* Banner Section */
+
+  .banner h1 {
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .banner .description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 85%;
+    max-width: 400px;
+    margin-bottom: 0px;
+  }
+
+  .banner .selection {
+    flex-direction: column;
+    gap: 16px;
+    width: 80%;
+    max-width: 350px;
+  }
+
+  .banner .selection input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .banner .selection button {
+    width: 100%;
+  }
+
+  /* Popular Tour Section */
+
+  .popular-tour {
+    flex-direction: column;
+    margin-top: 22px;
+    gap: 25px;
+  }
+
+  .tour-description,
+  .simple-place .left-side {
+    width: 92%;
+    margin: 10px auto 0;
+  }
+
+  .popular-tour .tour-image {
+    width: 100%;
+  }
+
+  .popular-tour .tour-image img {
+    width: 100%;
+  }
+
+  .popular-tour button {
+    padding: 12px 22px;
+    font-size: 14px;
+  }
+
+  /* Destination Section Styles */
+  .gallery-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 180px);
+    gap: 16px;
+    margin: 16px 0;
+  }
+
+  .box h3 {
+    font-size: 20px;
+  }
+
+  .box-3,
+  .box-5,
+  .box-4 {
+    grid-column: span 6;
+  }
+
+  /* Why Choose us Styles */
+
+  .services {
+    gap: 16px;
+    flex-direction: column;
+  }
+  .services .card {
+    padding: 25px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .services .card img {
+    width: 45px;
+  }
+
+  .services .card h3 {
+    font-size: 20px;
+    margin: 16px 0;
+  }
+
+  /* Deals and Discounts Styles */
+
+  .discount-packages .package-container {
+    height: 500px;
+    background-position: center;
+    align-items: end;
+    padding: 20px;
+  }
+
+  .discount-packages .details-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .details-section .package-info {
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+
+  .package-info .description {
+    font-size: 16px;
+  }
+
+  .details-section .package-info i {
+    margin-right: 3px;
+    font-size: 15px;
+  }
+
+  .details-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .details-section .price {
+    font-size: 16px;
+    margin: 10px 0 14px;
+  }
+
+  .details-section .description {
+    margin: 0;
+    padding: 0;
+  }
+
+  .deals button {
+    padding: 12px 22px;
+    font-size: 14px;
+    width: 130px;
+  }
+  .deals .button button {
+    padding: 12px 18px;
+    font-size: 14px;
+    width: 170px;
+  }
+
+  /* A Simple Perfect Section Styles */
+
+  .simple-place {
+    margin-top: 30px;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .simple-place .left-side h2 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    width: 280px;
+    margin-bottom: 10px;
+  }
+
+  .simple-place .left-side button {
+    padding: 12px 22px;
+    font-size: 14px;
+    width: 130px;
+  }
+
+  .simple-place .right-side {
+    width: 100%;
+    height: fit-content;
+    min-height: 10px;
+    max-height: 200px;
+  }
+  .simple-place .right-side iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+  }
+
+  /* Extra Section Styles */
+
+  .profile-container {
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px auto 50px;
+  }
+
+  .profile-container .profile-pic {
+    width: 200px;
+    height: 200px;
+    margin: 0px auto 10px;
+  }
+
+  .profile-container .profile .description {
+    font-size: 16px;
+  }
+  .profile-container .profile h3 {
+    font-size: 18px;
+    margin: 5px 0 10px;
+  }
+
+  .profile-container .socials a {
+    width: 26px;
+    height: 26px;
+  }
+
+  .profile-container .socials a i {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  /* Newsletter Section */
+
+  .newsletter {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .newsletter .left-card {
+    width: 100%;
+  }
+
+  .newsletter-img {
+    width: 100%;
+    height: 250px;
+  }
+  .newsletter-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    background-position: center;
+  }
+
+  .saving-card {
+    width: 170px;
+    right: 2px;
+    bottom: 35px;
+  }
+
+  .saving-card p {
+    font-size: 14px;
+  }
+
+  .saving-card h3 {
+    font-size: 20px;
+  }
+
+  /* Footer Section Styles */
+  footer {
+    padding: 30px 30px 5px;
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-top: 50px;
+  }
+
+  .footer-container .logo h2 {
+    font-size: 20px;
+  }
+
+  .footer-container .logo img {
+    width: 30px;
+  }
+
+  .footer-container .social-links a {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .footer-container hr {
+    border: 1px solid rgba(19, 19, 24, 0.1);
+    margin: 25px auto;
+  }
+
+  .footer-container .copyright {
+    color: #131318;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
